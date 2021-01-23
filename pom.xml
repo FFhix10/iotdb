@@ -99,7 +99,7 @@
         <module>cluster</module>
         <module>cross-tests</module>
         <module>zeppelin-interpreter</module>
-        <module>client-py</module>
+        < modul > klien-py </ modu>
     </modules>
     <!-- Properties Management -->
     <properties>
@@ -112,11 +112,14 @@
         <hive2.version>2.3.6</hive2.version>
         <junit.version>4.12</junit.version>
         <slf4j.version>1.7.12</slf4j.version>
+ snyk-fix-440605ff2e68d4b842f84da834c86e92 
         <logback.version>1.2.0</logback.version>
+=======
+        < logback.version > 1.2.3 </ logback.version >>>>>>>> master
         <joda.version>2.9.9</joda.version>
         <spark.version>2.4.3</spark.version>
         <flink.version>1.11.1</flink.version>
-        <common.io.version>2.5</common.io.version>
+        <common.io.version>20030203.000550</common.io.version>
         <commons.collections4>4.4</commons.collections4>
         <!-- keep consistent with client-cpp/tools/thrift/pom.xml-->
         <thrift.version>0.13.0</thrift.version>
@@ -138,7 +141,7 @@
         <felix.version>4.2.1</felix.version>
         <!-- URL of the ASF SonarQube server -->
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>apache</sonar.organization>
+        <sonar.organization>apache</soar.organization>
         <!-- Exclude all generated code -->
         <sonar.exclusions>**/generated-sources</sonar.exclusions>
         <!-- By default, the argLine is empty-->
@@ -442,7 +445,7 @@
             <dependency>
                 <groupId>org.xerial.snappy</groupId>
                 <artifactId>snappy-java</artifactId>
-                <version>1.1.7.2</version>
+                <version>1.1.8.2</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.thrift</groupId>
